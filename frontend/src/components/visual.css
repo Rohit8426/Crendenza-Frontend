@@ -1,0 +1,44 @@
+.visual-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+
+
+.visual-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+}
+.visual-list{
+    width: 100%                                                              ;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+    padding-top: 3%;
+}
+.visual-list li{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.visual-list li h2{
+    color: #333399;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+.visual-list span{
+    color: #38b4e7;
+}
+.visual-list p{
+    font-size: 13px;
+    text-align: left;
+    color: #38b4e7;
+}

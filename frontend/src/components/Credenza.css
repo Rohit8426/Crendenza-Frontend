@@ -1,0 +1,57 @@
+.credenza-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.credenza-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    row-gap: 5px;
+    padding-top: 4%;
+}
+.credenza-container .credenza-heading{
+    color: #333399;
+}
+.credenza-heading span{
+    color: #38b4e7;
+}
+.credenza-subheading{
+text-align: center;
+}
+.email-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.email-box input{
+    width: 40%;
+    height: 30px;
+    padding: 1%;
+    padding-left: 2%;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+
+}
+.email-box button{
+    width: 20%;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #333399 ;
+    color: white;
+}
+.Privacy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.Privacy a{
+    margin-left: 2px;
+}
